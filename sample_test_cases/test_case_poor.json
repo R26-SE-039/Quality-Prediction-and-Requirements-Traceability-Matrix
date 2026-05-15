@@ -1,0 +1,11 @@
+{
+  "id": "TEST_002",
+  "assertion_count": 2,
+  "has_boundary_values": false,
+  "has_negative_test": false,
+  "step_count": 3,
+  "has_error_handling": false,
+  "cyclomatic_complexity": 1.5,
+  "has_setup_teardown": false,
+  "historical_pass_rate": 0.45
+}

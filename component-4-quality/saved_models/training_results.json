@@ -1,0 +1,75 @@
+{
+  "model_name": "GradientBoosting",
+  "training_timestamp": "2026-04-30T16:09:13.212627",
+  "test_metrics": {
+    "mae": 3.27021045712622,
+    "rmse": 3.991091959432328,
+    "r2": 0.9483842576874448
+  },
+  "best_parameters": {
+    "learning_rate": 0.05,
+    "max_depth": 3,
+    "min_samples_split": 2,
+    "n_estimators": 300
+  },
+  "all_results": [
+    {
+      "model": "GradientBoosting",
+      "mae": 3.372179075663198,
+      "mse": 15.613337716502016,
+      "r2": 0.930989703545868,
+      "params": {
+        "learning_rate": 0.05,
+        "max_depth": 3,
+        "min_samples_split": 2,
+        "n_estimators": 300
+      }
+    },
+    {
+      "model": "RandomForest",
+      "mae": 4.228675316084962,
+      "mse": 27.20958312948515,
+      "r2": 0.8797347862286676,
+      "params": {
+        "max_depth": 10,
+        "min_samples_leaf": 1,
+        "min_samples_split": 2,
+        "n_estimators": 200
+      }
+    },
+    {
+      "model": "KNN",
+      "mae": 8.194426739109835,
+      "mse": 97.81669445770792,
+      "r2": 0.5676543218843524,
+      "params": {
+        "metric": "manhattan",
+        "n_neighbors": 7,
+        "weights": "distance"
+      }
+    },
+    {
+      "model": "DecisionTree",
+      "mae": 6.484466666666667,
+      "mse": 68.15127566666668,
+      "r2": 0.6987742260571799,
+      "params": {
+        "criterion": "absolute_error",
+        "max_depth": null,
+        "min_samples_leaf": 2,
+        "min_samples_split": 2
+      }
+    },
+    {
+      "model": "Ridge",
+      "mae": 4.583100422133646,
+      "mse": 31.582508352559433,
+      "r2": 0.8604066405435107,
+      "params": {
+        "alpha": 0.1,
+        "solver": "lsqr"
+      }
+    }
+  ],
+  "targets_met": true
+}

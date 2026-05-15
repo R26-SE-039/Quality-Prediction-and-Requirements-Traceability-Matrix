@@ -1,0 +1,10 @@
+[
+  "assertion_count",
+  "has_boundary_values",
+  "has_negative_test",
+  "step_count",
+  "has_error_handling",
+  "cyclomatic_complexity",
+  "has_setup_teardown",
+  "historical_pass_rate"
+]

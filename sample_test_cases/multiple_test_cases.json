@@ -1,0 +1,59 @@
+{
+  "test_cases": [
+    {
+      "id": "TEST_001",
+      "assertion_count": 5,
+      "has_boundary_values": true,
+      "has_negative_test": true,
+      "step_count": 8,
+      "has_error_handling": true,
+      "cyclomatic_complexity": 4.5,
+      "has_setup_teardown": true,
+      "historical_pass_rate": 0.85
+    },
+    {
+      "id": "TEST_002",
+      "assertion_count": 2,
+      "has_boundary_values": false,
+      "has_negative_test": false,
+      "step_count": 3,
+      "has_error_handling": false,
+      "cyclomatic_complexity": 1.5,
+      "has_setup_teardown": false,
+      "historical_pass_rate": 0.45
+    },
+    {
+      "id": "TEST_003",
+      "assertion_count": 8,
+      "has_boundary_values": true,
+      "has_negative_test": true,
+      "step_count": 12,
+      "has_error_handling": true,
+      "cyclomatic_complexity": 6.0,
+      "has_setup_teardown": true,
+      "historical_pass_rate": 0.95
+    },
+    {
+      "id": "TEST_004",
+      "assertion_count": 3,
+      "has_boundary_values": true,
+      "has_negative_test": false,
+      "step_count": 5,
+      "has_error_handling": false,
+      "cyclomatic_complexity": 2.8,
+      "has_setup_teardown": true,
+      "historical_pass_rate": 0.65
+    },
+    {
+      "id": "TEST_005",
+      "assertion_count": 10,
+      "has_boundary_values": true,
+      "has_negative_test": true,
+      "step_count": 15,
+      "has_error_handling": true,
+      "cyclomatic_complexity": 7.5,
+      "has_setup_teardown": true,
+      "historical_pass_rate": 0.92
+    }
+  ]
+}
